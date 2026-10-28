@@ -7,20 +7,20 @@ class Quiver < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/jongleb/quiver/releases/download/v1.3.8/quiver-1.3.8-aarch64-apple-darwin.tar.gz"
-      sha256 "271610c35b25c7e4a05b5890d859636905602bbc8e9163f3e221ece8f40f0d54"
+      url "https://github.com/jongleb/quiver/releases/download/v1.3.9/quiver-1.3.9-aarch64-apple-darwin.tar.gz"
+      sha256 "f603620065f5f939d665dd96f21871578ac09cde96b3afef9ea35b1d49103a63"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jongleb/quiver/releases/download/v1.3.8/quiver-1.3.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "af716f300d84a8a94345eac43d5e35d3c34dd9fc36fe46271051aa13bcbc3c7a"
+      url "https://github.com/jongleb/quiver/releases/download/v1.3.9/quiver-1.3.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c704a4aac1b8a82dff809b82cc7f4c98bb7d51a4d3faf8093e51f0391a3730bf"
     end
 
     on_arm do
-      url "https://github.com/jongleb/quiver/releases/download/v1.3.8/quiver-1.3.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8b6c8d9a7aae14619dc3e17eeb3979b3081ef8acc03928f1b6ac77f0761217a3"
+      url "https://github.com/jongleb/quiver/releases/download/v1.3.9/quiver-1.3.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "83207e9d1cdc54c45b02fd0538dedbed26c9faa93c8bc065aa906a781581e64a"
     end
   end
 
